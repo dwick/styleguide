@@ -548,6 +548,7 @@
 ## Conditional Expressions & Equality
 
   - Use `===` and `!==` over `==` and `!=`.
+  - The one exception is `==` is allowed as shorthand for `x === null || x === undefined`.
   - Conditional expressions are evaluated using coercion with the `ToBoolean` method and always follow these simple rules:
 
     + **Objects** evaluate to **true**
